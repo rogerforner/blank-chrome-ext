@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/rogerforner/blank-chrome-ext/issues"
   },
-  "homepage": "https://github.com/rogerforner/blank-chrome-ext#readme"
+  "homepage": "https://github.com/rogerforner/blank-chrome-ext#readme",
+  "devDependencies": {
+    "laravel-mix": "^5.0.1"
+  }
 }
