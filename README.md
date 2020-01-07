@@ -1,5 +1,3 @@
----
-
 - [1 Instalación](#1-instalación)
   - [1.1 Node](#11-Node)
 
