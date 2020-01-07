@@ -1,0 +1,6 @@
+{
+  "name"            : "MiExtensión",
+  "version"         : "1.0",
+  "description"     : "Boilerplate para iniciar el desarrollo de cualquier extensión para Chrome",
+  "manifest_version": 2
+}

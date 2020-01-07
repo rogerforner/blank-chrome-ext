@@ -13,6 +13,7 @@ let mix = require('laravel-mix');
 
 mix.js('src/js/app.js', 'extension')
    .sass('src/sass/app.scss', 'extension')
+   .copy('src/manifest.json', 'extension')
    .setPublicPath('extension');
 
 // Full API
