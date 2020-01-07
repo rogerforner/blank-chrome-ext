@@ -1,4 +1,6 @@
 - [1. Instalación](#1-instalación)
+- [2. Configuración](#2-configuración)
+- [3. Compilar la extensión](#3-compilar-la-extensión)
 - [Bibliografía](#bibliografía)
 
 ---
@@ -28,13 +30,18 @@
 
 # 2. Configuración
 
-# 3. Compilar
+
+
+# 3. Compilar la extensión
 
 Generar la extensión procesando todos los archivos del directorio _src_ (SASS, JS, otros...).
 
 ```bash
 # Desarrollo
 > npm run dev
+
+# Desarrollo + Revisión de cambios para compilarlos automáticamente.
+> npm run watch
 
 # Producción
 > npm run prod
