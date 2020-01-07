@@ -18,8 +18,26 @@
 ```json
 "devDependencies": {
   "cross-env": "^6.0.3",
-  "laravel-mix": "^5.0.1"
+  "laravel-mix": "^5.0.1",
+  "resolve-url-loader": "^3.1.0",
+  "sass": "^1.24.2",
+  "sass-loader": "^8.0.0",
+  "vue-template-compiler": "^2.6.11"
 }
+```
+
+# 2. Configuración
+
+# 3. Compilar
+
+Generar la extensión procesando todos los archivos del directorio _src_ (SASS, JS, otros...).
+
+```bash
+# Desarrollo
+> npm run dev
+
+# Producción
+> npm run prod
 ```
 
 # Bibliografía
