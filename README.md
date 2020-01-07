@@ -34,7 +34,7 @@
 
 # 3. Compilar la extensión
 
-Generar la extensión procesando todos los archivos del directorio _src_ (SASS, JS, otros...).
+Para compilar la extensión tan solo deveremos ejecutar uno de los siguientes comandos.
 
 ```bash
 # Desarrollo
@@ -46,6 +46,8 @@ Generar la extensión procesando todos los archivos del directorio _src_ (SASS, 
 # Producción
 > npm run prod
 ```
+
+Una vez finalice la compilación se podrá observar un nuevo directorio con el nombre _extension_. Este nuevo directorio es la extensión compilada.
 
 # Bibliografía
 
