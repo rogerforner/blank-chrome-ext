@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/rogerforner/blank-chrome-ext#readme",
   "devDependencies": {
+    "cross-env": "^6.0.3",
     "laravel-mix": "^5.0.1"
   }
 }

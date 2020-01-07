@@ -17,6 +17,7 @@
 
 ```json
 "devDependencies": {
+  "cross-env": "^6.0.3",
   "laravel-mix": "^5.0.1"
 }
 ```
