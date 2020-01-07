@@ -11,7 +11,9 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.js('src/app.js', 'dist/').sass('src/app.scss', 'dist/');
+mix.js('src/js/app.js', 'extension')
+   .sass('src/sass/app.scss', 'extension')
+   .setPublicPath('extension');
 
 // Full API
 // mix.js(src, output);
