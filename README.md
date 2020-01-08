@@ -34,9 +34,9 @@
 
 ```json
 {
-  "name"       : "MiExtensión",
+  "name"       : "",
   "version"    : "1.0",
-  "description": "Boilerplate para iniciar el desarrollo de cualquier extensión para Chrome",
+  "description": "",
   "browser_action": {
     "default_popup": "popup.html",
     "default_icon" : {
