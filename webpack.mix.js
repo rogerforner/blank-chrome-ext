@@ -14,7 +14,7 @@ let mix = require('laravel-mix');
 mix.js('src/js/app.js', 'extension/assets/js')
    .js('src/js/background.js', 'extension/assets/js')
    .sass('src/sass/app.scss', 'extension/assets/css')
-   .copy(['src/manifest.json', 'views/popup.html'], 'extension')
+   .copy(['src/manifest.json', 'src/views/popup.html'], 'extension')
    .copy('src/icons', 'extension/assets/icons')
    .setPublicPath('extension');
 
