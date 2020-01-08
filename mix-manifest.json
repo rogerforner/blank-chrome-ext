@@ -1,0 +1,6 @@
+{
+    "/extension/assets/js/app.js": "/extension/assets/js/app.js",
+    "/extension/assets/css/app.css": "/extension/assets/css/app.css",
+    "/extension/manifest.json": "/extension/manifest.json",
+    "/extension/popup.html": "/extension/popup.html"
+}

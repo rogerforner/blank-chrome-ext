@@ -11,10 +11,9 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.js('src/js/app.js', 'extension')
-   .sass('src/sass/app.scss', 'extension')
-   .copy('src/manifest.json', 'extension')
-   .setPublicPath('extension');
+mix.js(['src/js/app.js', 'src/js/background.js'], 'extension/assets/js')
+   .sass('src/sass/app.scss', 'extension/assets/css')
+   .copy(['src/manifest.json', 'views/popup.html'], 'extension');
 
 // Full API
 // mix.js(src, output);
