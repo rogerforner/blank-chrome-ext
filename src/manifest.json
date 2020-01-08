@@ -1,18 +1,30 @@
 {
-  "name"            : "MiExtensión",
-  "version"         : "1.0",
-  "description"     : "Boilerplate para iniciar el desarrollo de cualquier extensión para Chrome",
-  "homepage_url"    : "https://rogerforner.com",
-  "manifest_version": 2,
-  "browser_action"  : {
-    "default_title": "MiExtensión",
-    "default_popup": "popup.html"
+  "name"       : "MiExtensión",
+  "version"    : "1.0",
+  "description": "Boilerplate para iniciar el desarrollo de cualquier extensión para Chrome",
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon" : {
+      "16" : "assets/icons/rogerforner16.png",
+      "32" : "assets/icons/rogerforner32.png",
+      "48" : "assets/icons/rogerforner48.png",
+      "128": "assets/icons/rogerforner128.png"
+    }
   },
+  "icons": {
+    "16" : "assets/icons/rogerforner16.png",
+    "32" : "assets/icons/rogerforner32.png",
+    "48" : "assets/icons/rogerforner48.png",
+    "128": "assets/icons/rogerforner128.png"
+  },
+  "permissions": [
+    "activeTab",
+    "declarativeContent",
+    "storage"
+  ],
   "background": {
     "scripts"   : ["assets/js/background.js"],
     "persistent": false
   },
-  "permissions"    : [],
-  "options_page"   : "",
-  "content_scripts": []
+  "manifest_version": 2
 }

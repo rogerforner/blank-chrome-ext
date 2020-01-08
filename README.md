@@ -30,7 +30,40 @@
 
 # 2. Configuración
 
+> _manifest.json_
 
+```json
+{
+  "name"       : "MiExtensión",
+  "version"    : "1.0",
+  "description": "Boilerplate para iniciar el desarrollo de cualquier extensión para Chrome",
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon" : {
+      "16" : "",
+      "32" : "",
+      "48" : "",
+      "128": ""
+    }
+  },
+  "icons": {
+    "16" : "",
+    "32" : "",
+    "48" : "",
+    "128": ""
+  },
+  "permissions": [
+    "activeTab",
+    "declarativeContent",
+    "storage"
+  ],
+  "background": {
+    "scripts"   : ["assets/js/background.js"],
+    "persistent": false
+  },
+  "manifest_version": 2
+}
+```
 
 # 3. Compilar la extensión
 

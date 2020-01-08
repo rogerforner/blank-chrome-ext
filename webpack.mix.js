@@ -11,9 +11,11 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.js(['src/js/app.js', 'src/js/background.js'], 'extension/assets/js')
+mix.js('src/js/app.js', 'extension/assets/js')
+   .js('src/js/background.js', 'extension/assets/js')
    .sass('src/sass/app.scss', 'extension/assets/css')
-   .copy(['src/manifest.json', 'views/popup.html'], 'extension');
+   .copy(['src/manifest.json', 'views/popup.html'], 'extension')
+   .copy('src/icons', 'extension/assets/icons');
 
 // Full API
 // mix.js(src, output);
